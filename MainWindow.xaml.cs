@@ -22,7 +22,7 @@ namespace MatchGame
         DispatcherTimer timer = new DispatcherTimer();
         int tenthsOfSecondsElapsed;
         int matchesFound;
-
+        
         private void SetUpGame()
         {
             List<string> animalEmoji = new List<string>()
